@@ -35,6 +35,9 @@ export default function App() {
         <View style={{ width: 20 }} />
         <Button onPress={clearButton} title="Clear" />
       </View>
+      <Text style={{ fontWeight: "bold", color: "blue", marginTop: 20 }}>
+        Shopping List
+      </Text>
       <FlatList
         style={styles.list}
         data={data}
