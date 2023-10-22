@@ -47,7 +47,7 @@ export default function App() {
         <View style={styles.inputContainer}>
           <Input
             style={styles.input}
-            placeholder="Item Name"
+            placeholder="Product"
             onChangeText={(text) => setItemName(text)}
             value={itemName}
           />
