@@ -61,7 +61,7 @@ export default function App() {
         <View style={styles.buttonContainer}>
           <Button onPress={addItem} title="Add" />
           <View style={{ width: 20 }} />
-          <Button onPress={clearList} title="Clear " color="red" />
+          <Button onPress={clearList} title="Clear list " color="red" />
         </View>
         <View style={styles.listContainer}>
           <Text
